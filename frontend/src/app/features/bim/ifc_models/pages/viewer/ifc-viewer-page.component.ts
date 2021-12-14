@@ -69,6 +69,7 @@ import { QueryResource } from 'core-app/features/hal/resources/query-resource';
     BcfViewService,
     QueryParamListenerService,
   ],
+  selector: 'op-ifc-viewer-page',
 })
 export class IFCViewerPageComponent extends PartitionedQuerySpacePageComponent implements UntilDestroyedMixin, OnInit {
   text = {
